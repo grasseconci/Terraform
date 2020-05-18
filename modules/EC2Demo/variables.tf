@@ -7,5 +7,5 @@ variable "ami_id" {
 }
 
 variable "num_nodes" {
-  count=1
+  default = 1
 }
